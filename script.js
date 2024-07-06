@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const rooms = document.querySelectorAll('.room');
     const nextButtons = document.querySelectorAll('.next-arrow');
-    let currentIndex = 1; // Initially set the second room as active
+    let currentIndex = 1; 
 
     function updateRooms() {
         rooms.forEach((room, index) => {
